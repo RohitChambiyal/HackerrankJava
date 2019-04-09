@@ -13,7 +13,7 @@ static{
 Scanner x = new Scanner(System.in);
 B = x.nextInt();
 H = x.nextInt();
-if(B>=0 && H>=0){
+if(B>0 && H>0){
     flag =true;
 }
 else{
@@ -33,3 +33,4 @@ public static void main(String[] args){
 	}//end of main
 
 }//end of class
+
